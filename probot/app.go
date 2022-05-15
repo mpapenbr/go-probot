@@ -9,7 +9,7 @@ import (
 	"strconv"
 
 	"github.com/bradleyfalzon/ghinstallation"
-	"github.com/google/go-github/github"
+	"github.com/google/go-github/v44/github"
 )
 
 // App encapsulates the fields needed to define a GitHub App

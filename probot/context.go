@@ -1,6 +1,6 @@
 package probot
 
-import "github.com/google/go-github/github"
+import "github.com/google/go-github/v44/github"
 
 // Context encapsulates the fields passed to webhook handlers
 type Context struct {
