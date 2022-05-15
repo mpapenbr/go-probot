@@ -30,8 +30,8 @@ func Start() {
 	router := Router("/")
 
 	// Server
-	log.Printf("Server running at: http://localhost:%d/\n", portVar)
-	log.Fatal(http.ListenAndServe(fmt.Sprintf("127.0.0.1:%d", portVar), router))
+	log.Printf("Server running at: http://:%d/\n", portVar)
+	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%d", portVar), router))
 }
 
 func initialize() {
