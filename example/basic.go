@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	
-	"github.com/google/go-github/v44"
+	"github.com/google/go-github/v44/github"
+	"github.com/mpapenbr/go-probot/probot"
 )
 
 func main() {
